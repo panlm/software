@@ -1,0 +1,913 @@
+
+host;;YJ-DDC2-FW310;;fw;;172.29.254.1;;generic-host
+host;;YJ-DDC2-LB;;YJ-DDC2-LB;;172.29.251.12;;generic-host
+host;;ad;;ad;;172.29.255.96;;generic-host
+host;;bak;;bak;;172.29.254.10;;generic-host
+host;;bosh-blob;;bosh-blob;;172.29.249.69;;generic-host
+host;;bosh-director;;bosh-director;;172.29.249.68;;generic-host
+host;;bosh-nats;;bosh-nats;;172.29.249.65;;generic-host
+host;;bosh-postgres;;bosh-postgres;;172.29.249.66;;generic-host
+host;;bosh-redis;;bosh-redis;;172.29.249.67;;generic-host
+host;;cf-bosh-cli;;cf-bosh-cli;;172.29.249.210;;generic-host
+host;;cf-bosh-micro;;cf-bosh-micro;;172.29.249.211;;generic-host
+host;;cf-node0;;cf-node0;;172.29.249.240;;generic-host
+host;;cf-node1;;cf-node1;;172.29.249.250;;generic-host
+host;;cf-node2;;cf-node2;;172.29.249.251;;generic-host
+host;;cf-node3;;cf-node3;;172.29.249.241;;generic-host
+host;;cf1;;cf1;;172.29.249.51;;generic-host
+host;;cf2;;cf2;;172.29.249.52;;generic-host
+host;;cf3;;cf3;;172.29.249.53;;generic-host
+host;;cfmon;;cfmon;;172.29.249.254;;generic-host
+host;;demo-win;;demo-win;;172.29.255.97;;generic-host
+host;;ent10host1;;ent10host1;;172.29.1.130;;generic-host
+host;;ent11host1;;ent11host1;;172.29.1.146;;generic-host
+host;;ent12host1;;ent12host1;;172.29.1.162;;generic-host
+host;;ent12host2;;ent12host2;;172.29.1.163;;generic-host
+host;;ent13host1;;ent13host1;;172.29.1.178;;generic-host
+host;;ent14host1;;ent14host1;;172.29.1.194;;generic-host
+host;;ent14host2;;ent14host2;;172.29.1.195;;generic-host
+host;;ent16host1;;ent16host1;;172.29.1.226;;generic-host
+host;;ent17host1;;ent17host1;;172.29.1.242;;generic-host
+host;;ent17host2;;ent17host2;;172.29.1.243;;generic-host
+host;;ent18host1;;ent18host1;;172.29.2.2;;generic-host
+host;;ent19host1;;ent19host1;;172.29.2.18;;generic-host
+host;;ent19host2;;ent19host2;;172.29.2.19;;generic-host
+host;;ent21host1;;ent21host1;;172.29.2.50;;generic-host
+host;;ent22host1;;ent22host1;;172.29.2.66;;generic-host
+host;;ent23host1;;ent23host1;;172.29.2.82;;generic-host
+host;;ent24host1;;ent24host1;;172.29.2.98;;generic-host
+host;;ent27host1;;ent27host1;;172.29.2.146;;generic-host
+host;;ent27host2;;ent27host2;;172.29.2.147;;generic-host
+host;;ent27host3;;ent27host3;;172.29.2.148;;generic-host
+host;;ent27host4;;ent27host4;;172.29.2.149;;generic-host
+host;;ent27host5;;ent27host5;;172.29.2.150;;generic-host
+host;;ent27host6;;ent27host6;;172.29.2.151;;generic-host
+host;;ent2host1;;ent2host1;;172.29.1.2;;generic-host
+host;;ent2host2;;ent2host2;;172.29.1.3;;generic-host
+host;;ent2host3;;ent2host3;;172.29.1.4;;generic-host
+host;;ent2host4;;ent2host4;;172.29.1.5;;generic-host
+host;;ent2host5;;ent2host5;;172.29.1.6;;generic-host
+host;;ent3host1;;ent3host1;;172.29.1.18;;generic-host
+host;;ent4host1;;ent4host1;;172.29.1.34;;generic-host
+host;;ent4host2;;ent4host2;;172.29.1.35;;generic-host
+host;;ent5host1;;ent5host1;;172.29.1.50;;generic-host
+host;;ent6host1;;ent6host1;;172.29.1.66;;generic-host
+host;;ent7host1;;ent7host1;;172.29.1.82;;generic-host
+host;;ent8host1;;ent8host1;;172.29.1.98;;generic-host
+host;;ent9host1;;ent9host1;;172.29.1.114;;generic-host
+host;;esxi02;;esxi02;;172.29.255.12;;generic-host
+host;;esxi03;;esxi03;;172.29.255.13;;generic-host
+host;;esxi04;;esxi04;;172.29.255.14;;generic-host
+host;;esxi05;;esxi05;;172.29.255.15;;generic-host
+host;;esxi06;;esxi06;;172.29.255.16;;generic-host
+host;;esxi11;;esxi11;;172.29.255.21;;generic-host
+host;;esxi12;;esxi12;;172.29.255.22;;generic-host
+host;;esxi21;;esxi21;;172.29.255.31;;generic-host
+host;;esxi22;;esxi22;;172.29.255.32;;generic-host
+host;;esxi31;;esxi31;;172.29.255.41;;generic-host
+host;;esxi32;;esxi32;;172.29.255.42;;generic-host
+host;;localhost;;Linux Server #1;;127.0.0.1;;generic-host;;check-host-alive;;10;;480;;24x7;;d,u,r;;nagiosadmin
+host;;san-sw1;;san-sw1;;172.29.254.8;;generic-host
+host;;san-sw2;;san-sw2;;172.29.254.9;;generic-host
+host;;test2;;test2;;172.29.1.14;;generic-host
+host;;test3;;test3;;172.29.1.9;;generic-host
+host;;test4;;test4;;172.29.1.8;;generic-host
+host;;testvm-1;;testvm-1;;172.29.255.216;;generic-host
+host;;vcenter-win;;vcenter-win;;172.29.255.30;;generic-host
+host;;vcenter1;;vcenter1;;172.29.255.10;;generic-host
+host;;vcenter2;;vcenter2;;172.29.255.20;;generic-host
+host;;vcenter3;;vcenter3;;172.29.255.30;;generic-host
+host;;vcs;;vcs;;172.29.255.95;;generic-host
+host;;vm0;;vm0;;172.29.254.100;;generic-host
+host;;win1;;win1;;172.29.255.9;;generic-host
+hostgroup;;Linux Servers;;Linux Servers;;bak,bosh-blob,bosh-director,bosh-nats,bosh-postgres,bosh-redis,cf-bosh-cli,cf-bosh-micro,cf-node0,cf-node1,cf-node2,cf-node3,cf1,cf2,cf3,cfmon,ent10host1,ent11host1,ent14host1,ent14host2,ent18host1,ent19host1,ent19host2,ent21host1,ent23host1,ent24host1,ent27host1,ent27host2,ent27host3,ent27host4,ent27host5,ent27host6,ent2host2,ent2host4,ent2host5,ent3host1,ent4host1,ent4host2,ent5host1,ent6host1,ent7host1,ent8host1,ent9host1,esxi02,esxi03,esxi04,esxi05,esxi06,esxi11,esxi12,esxi21,esxi22,esxi31,esxi32,localhost,test2,test3,test4,testvm-1,vm0
+hostgroup;;Windows Servers;;Windows Servers;;ad,demo-win,ent12host1,ent12host2,ent13host1,ent16host1,ent17host1,ent17host2,ent22host1,ent2host1,ent2host3,vcenter-win,vcs,win1
+hostgroup;;cf;;cf;;bosh-blob,bosh-director,bosh-nats,bosh-postgres,bosh-redis,cf-bosh-cli,cf-bosh-micro,cf-node0,cf-node1,cf-node2,cf-node3,cf1,cf2,cf3,cfmon
+hostgroup;;demo;;deom;;ad,demo-win,vcenter-win,vcs
+hostgroup;;ent;;ent;;ent10host1,ent11host1,ent12host1,ent12host2,ent13host1,ent14host1,ent14host2,ent16host1,ent17host1,ent17host2,ent18host1,ent19host1,ent19host2,ent21host1,ent22host1,ent23host1,ent24host1,ent27host1,ent27host2,ent27host3,ent27host4,ent27host5,ent27host6,ent3host1,ent4host1,ent4host2,ent5host1,ent6host1,ent7host1,ent8host1,ent9host1
+hostgroup;;esx;;esx;;esxi02,esxi03,esxi04,esxi05,esxi06,esxi11,esxi12,esxi21,esxi22,esxi31,esxi32,vcenter1,vcenter2,vcenter3
+hostgroup;;mgmt;;mgmt;;bak,ent2host1,ent2host2,ent2host3,ent2host4,ent2host5,localhost,win1
+hostgroup;;network;;network;;YJ-DDC2-FW310,YJ-DDC2-LB,san-sw1,san-sw2
+hostgroup;;testing;;testing;;test2,test3,test4,testvm-1,vm0
+service;;check_snmp_storage_ape;;generic-service;;ent27host4;;0;;check_snmp_storage!/ape!80!90!-r
+service;;check_snmp_diskio_ape;;generic-service;;ent27host4;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_conns;;generic-service;;ent27host4;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_diskio_root;;generic-service;;ent27host4;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_cpu_detail;;generic-service;;ent27host4;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_swap;;generic-service;;ent27host4;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;ent27host4;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;ent27host4;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;ent27host4;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;ent27host4;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;ent27host4;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;ent27host4;;3;;0;;check_snmp_port
+service;;check_snmp_conns;;generic-service;;cf1;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;cf1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;cf1;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;cf1;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;cf1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;cf1;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;cf1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;cf1;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;cf1;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;cf1;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_c;;generic-service;;ent13host1;;0;;check_snmp_dsk!'C:'!80:90
+service;;check_snmp_storage_e;;generic-service;;ent13host1;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_dsk_e;;generic-service;;ent13host1;;0;;check_snmp_dsk!'E:'!80:90
+service;;check_snmp_cpu_w;;generic-service;;ent13host1;;0;;check_snmp_cpu_w!90:95
+service;;check_snmp_storage_f;;generic-service;;ent13host1;;0;;check_snmp_storage!'^F'!80!90
+service;;check_snmp_throughput_ct;;generic-service;;ent13host1;;1;;0;;check_snmp_throughput!180.153.97.75!
+service;;check_snmp_conn;;generic-service;;ent13host1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent13host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;ent13host1;;1;;1;;0;;check_alive
+service;;check_snmp_storage_c;;generic-service;;ent13host1;;0;;check_snmp_storage!'^C'!80!90
+service;;check_snmp_mem_w;;generic-service;;ent13host1;;0;;check_snmp_mem_w!-m 95:100
+service;;check_snmp_throughput_cu;;generic-service;;ent13host1;;1;;0;;check_snmp_throughput!112.65.45.154!
+service;;check_snmp_port;;generic-service;;ent13host1;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_d;;generic-service;;ent13host1;;0;;check_snmp_dsk!'D:'!80:90
+service;;check_snmp_storage_e;;generic-service;;vcenter1;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_tcpconnstate;;generic-service;;vcenter1;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_conns;;generic-service;;vcenter1;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_storage_mem;;generic-service;;vcenter1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_processor;;generic-service;;vcenter1;;1;;0;;check_snmp_processor
+service;;icmp_ping_alive;;generic-service;;vcenter1;;1;;1;;0;;check_alive
+service;;check_snmp_storage_c;;generic-service;;vcenter1;;0;;check_snmp_storage!'^C'!80!90
+service;;check_snmp_port;;generic-service;;vcenter1;;3;;0;;check_snmp_port
+service;;check_snmp_mem_detail;;generic-service;;ent2host2;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent2host2;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent2host2;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent2host2;;1;;1;;0;;check_alive
+service;;check_snmp_cpu_detail;;generic-service;;ent2host2;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_dsk_root;;generic-service;;ent2host2;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent2host2;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_e;;generic-service;;ent17host1;;0;;check_snmp_dsk!'E:'!80:90
+service;;check_snmp_dsk_c;;generic-service;;ent17host1;;0;;check_snmp_dsk!'C:'!80:90
+service;;check_snmp_cpu_w;;generic-service;;ent17host1;;0;;check_snmp_cpu_w!90:95
+service;;check_snmp_throughput_ct;;generic-service;;ent17host1;;1;;0;;check_snmp_throughput!180.153.97.86!
+service;;check_snmp_conn;;generic-service;;ent17host1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent17host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;ent17host1;;1;;1;;0;;check_alive
+service;;check_snmp_storage_d;;generic-service;;ent17host1;;0;;check_snmp_storage!'^D'!80!90
+service;;check_snmp_storage_c;;generic-service;;ent17host1;;0;;check_snmp_storage!'^C'!80!90
+service;;check_snmp_mem_w;;generic-service;;ent17host1;;0;;check_snmp_mem_w!-m 95:100
+service;;check_snmp_throughput_cu;;generic-service;;ent17host1;;1;;0;;check_snmp_throughput!112.65.45.156!
+service;;check_snmp_port;;generic-service;;ent17host1;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_data;;generic-service;;ent5host1;;0;;check_snmp_dsk!'/data'!80:90
+service;;check_snmp_cpu_detail;;generic-service;;ent5host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_throughput_ct;;generic-service;;ent5host1;;1;;0;;check_snmp_throughput!180.153.97.73!
+service;;check_snmp_mem_detail;;generic-service;;ent5host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent5host1;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent5host1;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent5host1;;1;;1;;0;;check_alive
+service;;check_snmp_dsk_root;;generic-service;;ent5host1;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_throughput_cu;;generic-service;;ent5host1;;1;;0;;check_snmp_throughput!112.65.45.153!
+service;;check_snmp_port;;generic-service;;ent5host1;;3;;0;;check_snmp_port
+service;;check_snmp_port_eth1;;generic-service;;YJ-DDC2-LB;;3;;0;;check_snmp_port!-n 1
+service;;check_snmp_port_eth6;;generic-service;;YJ-DDC2-LB;;3;;0;;check_snmp_port!-n 6
+service;;check_snmp_port_0_2;;generic-service;;san-sw1;;3;;0;;check_snmp_port!-n 1073741826 -C public
+service;;check_snmp_port_0_5;;generic-service;;san-sw1;;3;;0;;check_snmp_port!-n 1073741829 -C public
+service;;check_snmp_port_0_6;;generic-service;;san-sw1;;3;;0;;check_snmp_port!-n 1073741830 -C public
+service;;check_snmp_port_0_9;;generic-service;;san-sw1;;3;;0;;check_snmp_port!-n 1073741833 -C public
+service;;check_snmp_port_0_4;;generic-service;;san-sw1;;3;;0;;check_snmp_port!-n 1073741828 -C public
+service;;check_snmp_port_0_7;;generic-service;;san-sw1;;3;;0;;check_snmp_port!-n 1073741831 -C public
+service;;check_snmp_port_0_0;;generic-service;;san-sw1;;3;;0;;check_snmp_port!-n 1073741824 -C public
+service;;check_snmp_port_0_10;;generic-service;;san-sw1;;3;;0;;check_snmp_port!-n 1073741834 -C public
+service;;check_snmp_port_0_3;;generic-service;;san-sw1;;3;;0;;check_snmp_port!-n 1073741827 -C public
+service;;check_snmp_port_0_8;;generic-service;;san-sw1;;3;;0;;check_snmp_port!-n 1073741832 -C public
+service;;check_snmp_port_0_1;;generic-service;;san-sw1;;3;;0;;check_snmp_port!-n 1073741825 -C public
+service;;check_snmp_laload;;generic-service;;ent2host5;;1;;0;;check_snmp_laload
+service;;check_snmp_mem_detail;;generic-service;;ent2host5;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_conn;;generic-service;;ent2host5;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent2host5;;1;;1;;0;;check_alive
+service;;check_snmp_cpu_detail;;generic-service;;ent2host5;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_dsk_root;;generic-service;;ent2host5;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent2host5;;3;;0;;check_snmp_port
+service;;check_snmp_cpu_detail;;generic-service;;ent24host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;ent24host1;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;ent24host1;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_throughput_ct;;generic-service;;ent24host1;;1;;0;;check_snmp_throughput!114.80.85.38!
+service;;check_snmp_mem_detail;;generic-service;;ent24host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;ent24host1;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_conn;;generic-service;;ent24host1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent24host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;ent24host1;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;ent24host1;;1;;1;;0;;check_alive
+service;;check_snmp_throughput_cu;;generic-service;;ent24host1;;1;;0;;check_snmp_throughput!112.65.45.172!
+service;;check_snmp_port;;generic-service;;ent24host1;;3;;0;;check_snmp_port
+service;;check_snmp_storage_var_vcap_data;;generic-service;;bosh-director;;0;;check_snmp_storage!/var/vcap/data!80!90!-r
+service;;check_snmp_conns;;generic-service;;bosh-director;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;bosh-director;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;bosh-director;;1;;1;;1;;0;;check_snmp_diskio!sda1
+service;;check_snmp_diskio_swap;;generic-service;;bosh-director;;1;;1;;1;;0;;check_snmp_diskio!sdb1
+service;;check_snmp_diskio_sdb2;;generic-service;;bosh-director;;1;;1;;1;;0;;check_snmp_diskio!sdb2
+service;;check_snmp_mem_detail;;generic-service;;bosh-director;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;bosh-director;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;bosh-director;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;bosh-director;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;bosh-director;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;bosh-director;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_data;;generic-service;;ent4host2;;0;;check_snmp_dsk!'/data'!80:90
+service;;check_snmp_cpu_detail;;generic-service;;ent4host2;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_mem_detail;;generic-service;;ent4host2;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent4host2;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent4host2;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent4host2;;1;;1;;0;;check_alive
+service;;check_snmp_dsk_root;;generic-service;;ent4host2;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent4host2;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_e;;generic-service;;ent17host2;;0;;check_snmp_dsk!'E:'!80:90
+service;;check_snmp_dsk_c;;generic-service;;ent17host2;;0;;check_snmp_dsk!'C:'!80:90
+service;;check_snmp_cpu_w;;generic-service;;ent17host2;;0;;check_snmp_cpu_w!90:95
+service;;check_snmp_conn;;generic-service;;ent17host2;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent17host2;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_d;;generic-service;;ent17host2;;0;;check_snmp_storage!'^D'!80!90
+service;;icmp_ping_alive;;generic-service;;ent17host2;;1;;1;;0;;check_alive
+service;;check_snmp_storage_c;;generic-service;;ent17host2;;0;;check_snmp_storage!'^C'!80!90
+service;;check_snmp_mem_w;;generic-service;;ent17host2;;0;;check_snmp_mem_w!-m 95:100
+service;;check_snmp_port;;generic-service;;ent17host2;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_data;;generic-service;;ent8host1;;0;;check_snmp_dsk!'/data'!80:90
+service;;check_snmp_cpu_detail;;generic-service;;ent8host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_throughput_ct;;generic-service;;ent8host1;;1;;0;;check_snmp_throughput!180.153.97.92!
+service;;check_snmp_mem_detail;;generic-service;;ent8host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent8host1;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent8host1;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent8host1;;1;;1;;0;;check_alive
+service;;check_snmp_throughput_cu;;generic-service;;ent8host1;;1;;0;;check_snmp_throughput!112.65.45.140!
+service;;check_snmp_dsk_root;;generic-service;;ent8host1;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent8host1;;3;;0;;check_snmp_port
+service;;check_snmp_diskio_ape;;generic-service;;ent27host5;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_storage_ape;;generic-service;;ent27host5;;0;;check_snmp_storage!/ape!80!90!-r
+service;;check_snmp_iostat_ape;;generic-service;;ent27host5;;1;;1;;1;;0;;check_snmp_iostat!extOutput.1
+service;;check_snmp_conns;;generic-service;;ent27host5;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;ent27host5;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;ent27host5;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;ent27host5;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;ent27host5;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;ent27host5;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;ent27host5;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;ent27host5;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;ent27host5;;1;;1;;0;;check_alive
+service;;check_snmp_port;;generic-service;;ent27host5;;3;;0;;check_snmp_port
+service;;check_snmp_storage_var_vcap_data;;generic-service;;bosh-redis;;0;;check_snmp_storage!/var/vcap/data!80!90!-r
+service;;check_snmp_conns;;generic-service;;bosh-redis;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;bosh-redis;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;bosh-redis;;1;;1;;1;;0;;check_snmp_diskio!sda1
+service;;check_snmp_diskio_swap;;generic-service;;bosh-redis;;1;;1;;1;;0;;check_snmp_diskio!sdb1
+service;;check_snmp_diskio_sdb2;;generic-service;;bosh-redis;;1;;1;;1;;0;;check_snmp_diskio!sdb2
+service;;check_snmp_mem_detail;;generic-service;;bosh-redis;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;bosh-redis;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;bosh-redis;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;bosh-redis;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;bosh-redis;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;bosh-redis;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_e;;generic-service;;ent16host1;;0;;check_snmp_dsk!'E:'!80:90
+service;;check_snmp_dsk_c;;generic-service;;ent16host1;;0;;check_snmp_dsk!'C:'!80:90
+service;;check_snmp_storage_e;;generic-service;;ent16host1;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_cpu_w;;generic-service;;ent16host1;;0;;check_snmp_cpu_w!90:95
+service;;check_snmp_throughput_ct;;generic-service;;ent16host1;;1;;0;;check_snmp_throughput!180.153.97.79!
+service;;check_snmp_conn;;generic-service;;ent16host1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent16host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_c;;generic-service;;ent16host1;;0;;check_snmp_storage!'^C'!80!90
+service;;icmp_ping_alive;;generic-service;;ent16host1;;1;;1;;0;;check_alive
+service;;check_snmp_mem_w;;generic-service;;ent16host1;;0;;check_snmp_mem_w!-m 95:100
+service;;check_snmp_port;;generic-service;;ent16host1;;3;;0;;check_snmp_port
+service;;check_snmp_diskio_ape;;generic-service;;ent27host3;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_storage_ape;;generic-service;;ent27host3;;0;;check_snmp_storage!/ape!80!90!-r
+service;;check_snmp_conns;;generic-service;;ent27host3;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_diskio_root;;generic-service;;ent27host3;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_cpu_detail;;generic-service;;ent27host3;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_swap;;generic-service;;ent27host3;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;ent27host3;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;ent27host3;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;ent27host3;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;ent27host3;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;ent27host3;;1;;1;;0;;check_alive
+service;;check_snmp_port;;generic-service;;ent27host3;;3;;0;;check_snmp_port
+service;;check_snmp_throughput;;generic-service;;test3;;1;;0;;check_snmp_throughput!180.153.97.85!
+service;;check_snmp_cpu_detail;;generic-service;;test3;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;test3;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;test3;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_swapinout;;generic-service;;test3;;1;;0;;check_snmp_swapinout
+service;;check_snmp_mem_detail;;generic-service;;test3;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;test3;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;test3;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;test3;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_load;;generic-service;;test3;;0;;check_snmp_load!80!90
+service;;check_snmp_storage_root;;generic-service;;test3;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;test3;;1;;1;;0;;check_alive
+service;;check_snmp_dsk_root;;generic-service;;test3;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;test3;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_e;;generic-service;;ent2host3;;0;;check_snmp_dsk!'E:'!80:90
+service;;check_snmp_dsk_c;;generic-service;;ent2host3;;0;;check_snmp_dsk!'C:'!80:90
+service;;check_snmp_storage_e;;generic-service;;ent2host3;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_cpu_w;;generic-service;;ent2host3;;0;;check_snmp_cpu_w!90:95
+service;;check_snmp_conn;;generic-service;;ent2host3;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent2host3;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;ent2host3;;1;;1;;0;;check_alive
+service;;check_snmp_storage_c;;generic-service;;ent2host3;;0;;check_snmp_storage!'^C'!80!90
+service;;check_snmp_mem_w;;generic-service;;ent2host3;;0;;check_snmp_mem_w!-m 95:100
+service;;check_snmp_port;;generic-service;;ent2host3;;3;;0;;check_snmp_port
+service;;check_snmp_diskio_data;;generic-service;;ent18host1;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_storage_data;;generic-service;;ent18host1;;0;;check_snmp_storage!/data!80!90!-r
+service;;check_snmp_diskio_root;;generic-service;;ent18host1;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_cpu_detail;;generic-service;;ent18host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_swap;;generic-service;;ent18host1;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_throughput_ct;;generic-service;;ent18host1;;1;;0;;check_snmp_throughput!114.80.85.34!
+service;;check_snmp_mem_detail;;generic-service;;ent18host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_conn;;generic-service;;ent18host1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent18host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;ent18host1;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;ent18host1;;1;;1;;0;;check_alive
+service;;check_snmp_throughput_cu;;generic-service;;ent18host1;;1;;0;;check_snmp_throughput!112.65.45.168!
+service;;check_snmp_port;;generic-service;;ent18host1;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_e;;generic-service;;win1;;0;;check_snmp_dsk!'E:'!80:90
+service;;check_snmp_dsk_c;;generic-service;;win1;;0;;check_snmp_dsk!'C:'!80:90
+service;;check_snmp_cpu_w;;generic-service;;win1;;0;;check_snmp_cpu_w!90:95
+service;;check_snmp_processor;;generic-service;;win1;;1;;0;;check_snmp_processor
+service;;check_snmp_processor_detail;;generic-service;;win1;;1;;0;;check_snmp_processor_detail
+service;;check_snmp_conn;;generic-service;;win1;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;win1;;1;;1;;0;;check_alive
+service;;check_snmp_mem_w;;generic-service;;win1;;0;;check_snmp_mem_w!-m 95:100
+service;;check_snmp_port;;generic-service;;win1;;3;;0;;check_snmp_port
+service;;check_snmp_port_vmnic0;;generic-service;;esxi02;;3;;0;;check_snmp_port!-n 1
+service;;check_snmp_storage_sanstore5;;generic-service;;esxi02;;0;;check_snmp_storage!/vmfs/volumes/4f950dbb-e83863d8-7a5c-d4ae5285350e!80!90!-r
+service;;check_snmp_storage_sanstore1;;generic-service;;esxi02;;0;;check_snmp_storage!/vmfs/volumes/4e98dc1b-748d04f2-887a-782bcb5b24ef!80!90!-r
+service;;check_snmp_storage_sanstore4;;generic-service;;esxi02;;0;;check_snmp_storage!/vmfs/volumes/4f6aad57-b1c519f0-d472-782bcb5b24ef!80!90!-r
+service;;check_snmp_storage_esxi02store;;generic-service;;esxi02;;0;;check_snmp_storage!/vmfs/volumes/4e93776b-73bdd41e-c754-782bcb5b2935!80!90!-r
+service;;check_snmp_port_vmnic1;;generic-service;;esxi02;;3;;0;;check_snmp_port!-n 2
+service;;icmp_ping_alive;;generic-service;;esxi02;;1;;1;;0;;check_alive
+service;;check_esxi_cpu;;generic-service;;esxi02;;3;;0;;check_vmware!prod!--report=cpu
+service;;check_esxi_mem;;generic-service;;esxi02;;3;;0;;check_vmware!prod!--report=mem
+service;;check_snmp_conns;;generic-service;;cfmon;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;cfmon;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;cfmon;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;cfmon;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;cfmon;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;cfmon;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;cfmon;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;cfmon;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;cfmon;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;cfmon;;3;;0;;check_snmp_port
+service;;check_snmp_conns;;generic-service;;cf-bosh-micro;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_diskio_root;;generic-service;;cf-bosh-micro;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_cpu_detail;;generic-service;;cf-bosh-micro;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_swap;;generic-service;;cf-bosh-micro;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;cf-bosh-micro;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;cf-bosh-micro;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;cf-bosh-micro;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;cf-bosh-micro;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;cf-bosh-micro;;1;;1;;0;;check_alive
+service;;check_snmp_port;;generic-service;;cf-bosh-micro;;3;;0;;check_snmp_port
+service;;check_snmp_process_perl;;generic-service;;localhost;;2;;0;;check_snmp_process!.perl.bin!500,1000!50,60
+service;;local_process_gw_listener;;generic-service;;localhost;;check_local_procs_arg!1:1!1:1!groundwork/foundation/container/lib/jboss
+service;;check_snmp_iostat_root;;generic-service;;localhost;;1;;1;;1;;0;;check_snmp_iostat!extOutput.1
+service;;tcp_http;;generic-service;;localhost;;check_http!3!5
+service;;local_mem_syslog-ng;;generic-service;;localhost;;check_local_proc_mem!20!30!syslog-ng
+service;;check_snmp_process_nagios;;generic-service;;localhost;;2;;0;;check_snmp_process!.nagios.bin!500,1000!50,60
+service;;check_snmp_laload;;generic-service;;localhost;;1;;0;;check_snmp_laload
+service;;local_cpu_nagios;;generic-service;;localhost;;check_local_proc_cpu!40!50!nagios
+service;;check_snmp_storage_root;;generic-service;;localhost;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;localhost;;3;;0;;check_snmp_port
+service;;local_cpu_mysql;;generic-service;;localhost;;check_local_proc_cpu!40!50!mysql
+service;;local_process_nagios;;generic-service;;localhost;;check_nagios
+service;;local_swap;;generic-service;;localhost;;check_local_swap!20%!10%
+service;;local_mem_nagios;;generic-service;;localhost;;check_local_proc_mem!20!30!nagios
+service;;check_snmp_cpu_detail;;generic-service;;localhost;;1;;3;;1;;0;;check_snmp_cpu_detail
+service;;local_cpu_perl;;generic-service;;localhost;;check_local_proc_cpu!40!50!perl
+service;;check_snmp_processor_detail;;generic-service;;localhost;;1;;0;;check_snmp_processor_detail
+service;;check_procs2_mysqld.bin;;generic-service;;localhost;;0;;check_procs2!mysqld.bin!1000000!2000000
+service;;local_mem_perl;;generic-service;;localhost;;check_local_proc_mem!20!30!perl
+service;;local_process_mysqld_safe;;generic-service;;localhost;;check_local_procs_string!1!2!mysqld_safe
+service;;local_load;;generic-service;;localhost;;check_local_load!5,4,3!10,8,6
+service;;local_nagios_latency;;generic-service;;localhost;;check_nagios_latency
+service;;check_snmp_process_httpd;;generic-service;;localhost;;2;;0;;check_snmp_process!httpd!500,1000!50,60
+service;;check_snmp_iostat_swap;;generic-service;;localhost;;1;;1;;1;;0;;check_snmp_iostat!extOutput.2
+service;;local_users;;generic-service;;localhost;;check_local_users!5!20
+service;;check_snmp_process_worldcommunitygrid;;generic-service;;localhost;;2;;0;;check_snmp_process!wcg!500,1000!50,60
+service;;local_mem_mysql;;generic-service;;localhost;;check_local_proc_mem!20!30!mysql
+service;;check_snmp_process_monitor_mysqld.bin;;generic-service;;localhost;;0;;check_snmp_process_monitor!mysqld.bin
+service;;check_snmp_diskio_root;;generic-service;;localhost;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;local_mem_httpd;;generic-service;;localhost;;check_local_proc_mem!20!30!httpd
+service;;check_snmp_diskio_swap;;generic-service;;localhost;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_swapinout;;generic-service;;localhost;;1;;0;;check_snmp_swapinout
+service;;local_cpu_java;;generic-service;;localhost;;check_local_proc_cpu!40!50!java
+service;;check_snmp_mem_detail;;generic-service;;localhost;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;local_mysql_database;;generic-service;;localhost;;check_mysql!monarch!monarch
+service;;check_snmp_dsk_root;;generic-service;;localhost;;0;;check_snmp_dsk!'/'!80:90
+service;;local_cpu_httpd;;generic-service;;localhost;;check_local_proc_cpu!40!50!httpd
+service;;local_cpu_syslog-ng;;generic-service;;localhost;;check_local_proc_cpu!40!50!syslog-ng
+service;;check_snmp_io;;generic-service;;localhost;;1;;0;;check_snmp_io
+service;;check_snmp_process_mysqld.bin;;generic-service;;localhost;;2;;0;;check_snmp_process!mysqld.bin!0,0!0,0
+service;;check_snmp_processor;;generic-service;;localhost;;1;;0;;check_snmp_processor
+service;;tcp_nsca;;generic-service;;localhost;;check_tcp_nsca!5!9
+service;;tcp_gw_listener;;generic-service;;localhost;;check_tcp_gw_listener!5!9
+service;;local_disk_root;;generic-service;;localhost;;check_local_disk!15%!10%!/
+service;;local_process_mysqld;;generic-service;;localhost;;check_local_procs_string!10!20!mysqld
+service;;local_mem_java;;generic-service;;localhost;;check_local_proc_mem!40!50!java
+service;;local_memory;;generic-service;;localhost;;check_local_mem!95!99
+service;;check_snmp_storage_mem;;generic-service;;localhost;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;vcenter2;;1;;1;;0;;check_alive
+service;;check_snmp_conns;;generic-service;;cf-node1;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_diskio_root;;generic-service;;cf-node1;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_cpu_detail;;generic-service;;cf-node1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_swap;;generic-service;;cf-node1;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;cf-node1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;cf-node1;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;cf-node1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;cf-node1;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;cf-node1;;1;;1;;0;;check_alive
+service;;check_snmp_port;;generic-service;;cf-node1;;3;;0;;check_snmp_port
+service;;check_snmp_diskio_data;;generic-service;;ent19host2;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_storage_data;;generic-service;;ent19host2;;0;;check_snmp_storage!/data!80!90!-r
+service;;check_snmp_diskio_root;;generic-service;;ent19host2;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;ent19host2;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_conn;;generic-service;;ent19host2;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent19host2;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;ent19host2;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;ent19host2;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;ent19host2;;3;;0;;check_snmp_port
+service;;check_snmp_storage_e;;generic-service;;vcenter3;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_conns;;generic-service;;vcenter3;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_processor;;generic-service;;vcenter3;;1;;0;;check_snmp_processor
+service;;check_snmp_tcpconnstate;;generic-service;;vcenter3;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;vcenter3;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_c;;generic-service;;vcenter3;;0;;check_snmp_storage!'^C'!80!90
+service;;icmp_ping_alive;;generic-service;;vcenter3;;1;;1;;0;;check_alive
+service;;check_snmp_port;;generic-service;;vcenter3;;3;;0;;check_snmp_port
+service;;check_snmp_conns;;generic-service;;cf-node3;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;cf-node3;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;cf-node3;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;cf-node3;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;cf-node3;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;cf-node3;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;cf-node3;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;cf-node3;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;cf-node3;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;cf-node3;;3;;0;;check_snmp_port
+service;;check_snmp_diskio_data;;generic-service;;ent19host1;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_storage_data;;generic-service;;ent19host1;;0;;check_snmp_storage!/data!80!90!-r
+service;;check_snmp_diskio_root;;generic-service;;ent19host1;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;ent19host1;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_throughput_ct;;generic-service;;ent19host1;;1;;0;;check_snmp_throughput!114.80.85.33!
+service;;check_snmp_conn;;generic-service;;ent19host1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent19host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;ent19host1;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;ent19host1;;1;;1;;0;;check_alive
+service;;check_snmp_throughput_cu;;generic-service;;ent19host1;;1;;0;;check_snmp_throughput!112.65.45.158!
+service;;check_snmp_port;;generic-service;;ent19host1;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_e;;generic-service;;ent2host1;;0;;check_snmp_dsk!'E:'!80:90
+service;;check_snmp_dsk_c;;generic-service;;ent2host1;;0;;check_snmp_dsk!'C:'!80:90
+service;;check_snmp_storage_e;;generic-service;;ent2host1;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_cpu_w;;generic-service;;ent2host1;;0;;check_snmp_cpu_w!90:95
+service;;check_snmp_conn;;generic-service;;ent2host1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent2host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_c;;generic-service;;ent2host1;;0;;check_snmp_storage!'^C'!80!90
+service;;icmp_ping_alive;;generic-service;;ent2host1;;1;;1;;0;;check_alive
+service;;check_snmp_mem_w;;generic-service;;ent2host1;;0;;check_snmp_mem_w!-m 95:100
+service;;check_snmp_port;;generic-service;;ent2host1;;3;;0;;check_snmp_port
+service;;check_snmp_storage_e;;generic-service;;demo-win;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_conn;;generic-service;;demo-win;;0;;check_snmp_conn
+service;;check_snmp_tcpconnstate;;generic-service;;demo-win;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;demo-win;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_processor;;generic-service;;demo-win;;1;;0;;check_snmp_processor
+service;;icmp_ping_alive;;generic-service;;demo-win;;1;;1;;0;;check_alive
+service;;check_snmp_storage_c;;generic-service;;demo-win;;0;;check_snmp_storage!'^C'!80!90
+service;;check_snmp_port;;generic-service;;demo-win;;3;;0;;check_snmp_port
+service;;check_snmp_cpu_detail;;generic-service;;ent14host2;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_throughput_ct;;generic-service;;ent14host2;;1;;0;;check_snmp_throughput!180.153.97.77!
+service;;check_snmp_mem_detail;;generic-service;;ent14host2;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent14host2;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent14host2;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent14host2;;1;;1;;0;;check_alive
+service;;check_snmp_dsk_root;;generic-service;;ent14host2;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent14host2;;3;;0;;check_snmp_port
+service;;check_snmp_port_ent19;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 34
+service;;check_snmp_port_ent8;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 22
+service;;check_snmp_port_ent16;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 30
+service;;check_snmp_port_ent9;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 23
+service;;check_snmp_port_ent18;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 32
+service;;check_snmp_port_ent14;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 28
+service;;check_snmp_port_ent6;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 20
+service;;check_snmp_port_ent11;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 25
+service;;check_snmp_port_ent17;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 31
+service;;check_snmp_port_ent3;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 17
+service;;check_snmp_port_ent27;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 48
+service;;check_snmp_port_ent24;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 42
+service;;check_snmp_port_ent21;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 33
+service;;check_snmp_port_ent2;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 15
+service;;check_snmp_port_ent10;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 24
+service;;check_snmp_port_ent13;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 27
+service;;check_snmp_port_ent20;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 14
+service;;check_snmp_port_ent5;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 19
+service;;check_snmp_port_ent12;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 26
+service;;check_snmp_port_ent25;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 46
+service;;check_snmp_port_ent23;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 41
+service;;check_snmp_port_ent4;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 18
+service;;check_snmp_port_ent26;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 47
+service;;check_snmp_port_ent15;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 29
+service;;check_snmp_port_ent7;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 21
+service;;check_snmp_port_ent22;;generic-service;;YJ-DDC2-FW310;;3;;0;;check_snmp_port!-n 35
+service;;check_snmp_throughput;;generic-service;;test4;;1;;0;;check_snmp_throughput!180.153.97.85!
+service;;check_snmp_diskio_root;;generic-service;;test4;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_cpu_detail;;generic-service;;test4;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_swap;;generic-service;;test4;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_swapinout;;generic-service;;test4;;1;;0;;check_snmp_swapinout
+service;;check_snmp_laload;;generic-service;;test4;;1;;0;;check_snmp_laload
+service;;check_snmp_mem_detail;;generic-service;;test4;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_conn;;generic-service;;test4;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;test4;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;test4;;1;;1;;0;;check_alive
+service;;check_snmp_load;;generic-service;;test4;;0;;check_snmp_load!80!90
+service;;check_snmp_storage_root;;generic-service;;test4;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_dsk_root;;generic-service;;test4;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;test4;;3;;0;;check_snmp_port
+service;;check_snmp_diskio_ape;;generic-service;;ent27host1;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_storage_ape;;generic-service;;ent27host1;;0;;check_snmp_storage!/ape!80!90!-r
+service;;check_snmp_iostat_ape;;generic-service;;ent27host1;;1;;1;;1;;0;;check_snmp_iostat!extOutput.1
+service;;check_snmp_conns;;generic-service;;ent27host1;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;ent27host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;ent27host1;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;ent27host1;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_throughput_ct;;generic-service;;ent27host1;;1;;0;;check_snmp_throughput!114.80.85.41!
+service;;check_snmp_mem_detail;;generic-service;;ent27host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;ent27host1;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;ent27host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;ent27host1;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;ent27host1;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_throughput_cu;;generic-service;;ent27host1;;1;;0;;check_snmp_throughput!112.65.45.173!
+service;;check_snmp_port;;generic-service;;ent27host1;;3;;0;;check_snmp_port
+service;;check_snmp_conns;;generic-service;;cf-node2;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;cf-node2;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;cf-node2;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;cf-node2;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;cf-node2;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;cf-node2;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;cf-node2;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;cf-node2;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;cf-node2;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;cf-node2;;3;;0;;check_snmp_port
+service;;check_snmp_throughput_ct;;generic-service;;ent14host1;;1;;0;;check_snmp_throughput!180.153.97.76!
+service;;check_snmp_laload;;generic-service;;ent14host1;;1;;0;;check_snmp_laload
+service;;check_snmp_mem_detail;;generic-service;;ent14host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_conn;;generic-service;;ent14host1;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent14host1;;1;;1;;0;;check_alive
+service;;check_snmp_cpu_detail;;generic-service;;ent14host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_dsk_root;;generic-service;;ent14host1;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent14host1;;3;;0;;check_snmp_port
+service;;check_snmp_port_vmnic0;;generic-service;;esxi11;;3;;0;;check_snmp_port!-n 1
+service;;check_snmp_storage_sanstore2;;generic-service;;esxi11;;0;;check_snmp_storage!/vmfs/volumes/4eb4cbed-02a37fc8-b9dc-782bcb5b26df!80!90!-r
+service;;check_snmp_port_vmnic1;;generic-service;;esxi11;;3;;0;;check_snmp_port!-n 2
+service;;icmp_ping_alive;;generic-service;;esxi11;;1;;1;;0;;check_alive
+service;;check_esxi_cpu;;generic-service;;esxi11;;3;;0;;check_vmware!mgmt!--report=cpu
+service;;check_snmp_storage_esxi11store;;generic-service;;esxi11;;0;;check_snmp_storage!/vmfs/volumes/4e94758b-ea2216be-4306-782bcb5b23bb!80!90!-r
+service;;check_esxi_mem;;generic-service;;esxi11;;3;;0;;check_vmware!mgmt!--report=mem
+service;;check_snmp_mem_detail;;generic-service;;ent2host4;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent2host4;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent2host4;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent2host4;;1;;1;;0;;check_alive
+service;;check_snmp_cpu_detail;;generic-service;;ent2host4;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_dsk_root;;generic-service;;ent2host4;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent2host4;;3;;0;;check_snmp_port
+service;;check_snmp_conns;;generic-service;;cf-node0;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_diskio_root;;generic-service;;cf-node0;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_cpu_detail;;generic-service;;cf-node0;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_swap;;generic-service;;cf-node0;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;cf-node0;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;cf-node0;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;cf-node0;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;cf-node0;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;cf-node0;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;cf-node0;;3;;0;;check_snmp_port
+service;;check_snmp_storage_e;;generic-service;;ent12host1;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_dsk_e;;generic-service;;ent12host1;;0;;check_snmp_dsk!'E:'!80:90
+service;;check_snmp_dsk_c;;generic-service;;ent12host1;;0;;check_snmp_dsk!'C:'!80:90
+service;;check_snmp_cpu_w;;generic-service;;ent12host1;;0;;check_snmp_cpu_w!90:95
+service;;check_snmp_processor;;generic-service;;ent12host1;;1;;0;;check_snmp_processor
+service;;check_snmp_throughput_ct;;generic-service;;ent12host1;;1;;0;;check_snmp_throughput!180.153.97.87!
+service;;check_snmp_conn;;generic-service;;ent12host1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent12host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_c;;generic-service;;ent12host1;;0;;check_snmp_storage!'^C'!80!90
+service;;icmp_ping_alive;;generic-service;;ent12host1;;1;;1;;0;;check_alive
+service;;check_snmp_mem_w;;generic-service;;ent12host1;;0;;check_snmp_mem_w!-m 95:100
+service;;check_snmp_throughput_cu;;generic-service;;ent12host1;;1;;0;;check_snmp_throughput!112.65.45.135!
+service;;check_snmp_port;;generic-service;;ent12host1;;3;;0;;check_snmp_port
+service;;check_snmp_iostat_root;;generic-service;;vm0;;1;;1;;1;;0;;check_snmp_iostat!extOutput.1
+service;;check_snmp_conns;;generic-service;;vm0;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;vm0;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;vm0;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_mem_detail;;generic-service;;vm0;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;vm0;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;icmp_ping_alive;;generic-service;;vm0;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;vm0;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;vm0;;3;;0;;check_snmp_port
+service;;icmp_ping_alive;;generic-service;;esxi21;;1;;1;;0;;check_alive
+service;;check_esxi_cpu;;generic-service;;esxi21;;3;;0;;check_vmware!demo!--report=cpu
+service;;check_esxi_mem;;generic-service;;esxi21;;3;;0;;check_vmware!demo!--report=mem
+service;;check_snmp_dsk_data;;generic-service;;ent11host1;;0;;check_snmp_dsk!'/data'!80:90
+service;;check_snmp_cpu_detail;;generic-service;;ent11host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_throughput_ct;;generic-service;;ent11host1;;1;;0;;check_snmp_throughput!180.153.97.94!
+service;;check_snmp_mem_detail;;generic-service;;ent11host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent11host1;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent11host1;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent11host1;;1;;1;;0;;check_alive
+service;;check_snmp_dsk_root;;generic-service;;ent11host1;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_throughput_cu;;generic-service;;ent11host1;;1;;0;;check_snmp_throughput!112.65.45.142!
+service;;check_snmp_port;;generic-service;;ent11host1;;3;;0;;check_snmp_port
+service;;icmp_ping_alive;;generic-service;;esxi22;;1;;1;;0;;check_alive
+service;;check_esxi_cpu;;generic-service;;esxi22;;3;;0;;check_vmware!demo!--report=cpu
+service;;check_esxi_mem;;generic-service;;esxi22;;3;;0;;check_vmware!demo!--report=mem
+service;;icmp_ping_alive;;generic-service;;esxi32;;1;;1;;0;;check_alive
+service;;check_esxi_cpu;;generic-service;;esxi32;;3;;0;;check_vmware!vfdd!--report=cpu
+service;;check_esxi_mem;;generic-service;;esxi32;;3;;0;;check_vmware!vfdd!--report=mem
+service;;check_snmp_storage_e;;generic-service;;vcenter-win;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_tcpconnstate;;generic-service;;vcenter-win;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_conn;;generic-service;;vcenter-win;;0;;check_snmp_conn
+service;;check_snmp_processor;;generic-service;;vcenter-win;;1;;0;;check_snmp_processor
+service;;check_snmp_storage_mem;;generic-service;;vcenter-win;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;vcenter-win;;1;;1;;0;;check_alive
+service;;check_snmp_storage_c;;generic-service;;vcenter-win;;0;;check_snmp_storage!'^C'!80!90
+service;;check_snmp_port;;generic-service;;vcenter-win;;3;;0;;check_snmp_port
+service;;check_snmp_laload;;generic-service;;test2;;1;;0;;check_snmp_laload
+service;;check_snmp_diskio_data;;generic-service;;ent23host1;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_storage_data;;generic-service;;ent23host1;;0;;check_snmp_storage!/data!80!90!-r
+service;;check_snmp_diskio_root;;generic-service;;ent23host1;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;ent23host1;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_throughput_ct;;generic-service;;ent23host1;;1;;0;;check_snmp_throughput!114.80.85.37!
+service;;check_snmp_conn;;generic-service;;ent23host1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent23host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;ent23host1;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;ent23host1;;1;;1;;0;;check_alive
+service;;check_snmp_throughput_cu;;generic-service;;ent23host1;;1;;0;;check_snmp_throughput!112.65.45.171!
+service;;check_snmp_port;;generic-service;;ent23host1;;3;;0;;check_snmp_port
+service;;check_snmp_port_vmnic0;;generic-service;;esxi12;;3;;0;;check_snmp_port!-n 1
+service;;check_snmp_storage_sanstore2;;generic-service;;esxi12;;0;;check_snmp_storage!/vmfs/volumes/4eb4cbed-02a37fc8-b9dc-782bcb5b26df!80!90!-r
+service;;check_snmp_port_vmnic1;;generic-service;;esxi12;;3;;0;;check_snmp_port!-n 2
+service;;check_snmp_storage_esxi12store;;generic-service;;esxi12;;0;;check_snmp_storage!/vmfs/volumes/4e946595-9d13edb8-11b7-782bcb5b26e0!80!90!-r
+service;;icmp_ping_alive;;generic-service;;esxi12;;1;;1;;0;;check_alive
+service;;check_esxi_cpu;;generic-service;;esxi12;;3;;0;;check_vmware!mgmt!--report=cpu
+service;;check_esxi_mem;;generic-service;;esxi12;;3;;0;;check_vmware!mgmt!--report=mem
+service;;check_snmp_dsk_data;;generic-service;;ent4host1;;0;;check_snmp_dsk!'/data'!80:90
+service;;check_snmp_cpu_detail;;generic-service;;ent4host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_throughput_ct;;generic-service;;ent4host1;;1;;0;;check_snmp_throughput!180.153.97.72!
+service;;check_snmp_mem_detail;;generic-service;;ent4host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent4host1;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent4host1;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent4host1;;1;;1;;0;;check_alive
+service;;check_snmp_throughput_cu;;generic-service;;ent4host1;;1;;0;;check_snmp_throughput!112.65.45.152!
+service;;check_snmp_dsk_root;;generic-service;;ent4host1;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent4host1;;3;;0;;check_snmp_port
+service;;check_snmp_dsk_data;;generic-service;;ent6host1;;0;;check_snmp_dsk!'/data'!80:90
+service;;check_snmp_cpu_detail;;generic-service;;ent6host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_throughput_ct;;generic-service;;ent6host1;;1;;0;;check_snmp_throughput!180.153.97.90!
+service;;check_snmp_mem_detail;;generic-service;;ent6host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent6host1;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent6host1;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent6host1;;1;;1;;0;;check_alive
+service;;check_snmp_throughput_cu;;generic-service;;ent6host1;;1;;0;;check_snmp_throughput!112.65.45.138!
+service;;check_snmp_dsk_root;;generic-service;;ent6host1;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent6host1;;3;;0;;check_snmp_port
+service;;check_snmp_port_vmnic0;;generic-service;;esxi04;;3;;0;;check_snmp_port!-n 1
+service;;check_snmp_storage_sanstore1;;generic-service;;esxi04;;0;;check_snmp_storage!/vmfs/volumes/4e98dc1b-748d04f2-887a-782bcb5b24ef!80!90!-r
+service;;check_snmp_port_vmnic1;;generic-service;;esxi04;;3;;0;;check_snmp_port!-n 2
+service;;icmp_ping_alive;;generic-service;;esxi04;;1;;1;;0;;check_alive
+service;;check_esxi_cpu;;generic-service;;esxi04;;3;;0;;check_vmware!prod!--report=cpu
+service;;check_esxi_mem;;generic-service;;esxi04;;3;;0;;check_vmware!prod!--report=mem
+service;;check_snmp_dsk_data;;generic-service;;ent7host1;;0;;check_snmp_dsk!'/data'!80:90
+service;;check_snmp_cpu_detail;;generic-service;;ent7host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_throughput_ct;;generic-service;;ent7host1;;1;;0;;check_snmp_throughput!180.153.97.91!
+service;;check_snmp_mem_detail;;generic-service;;ent7host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent7host1;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent7host1;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent7host1;;1;;1;;0;;check_alive
+service;;check_snmp_throughput_cu;;generic-service;;ent7host1;;1;;0;;check_snmp_throughput!112.65.45.139!
+service;;check_snmp_dsk_root;;generic-service;;ent7host1;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent7host1;;3;;0;;check_snmp_port
+service;;check_snmp_diskio_data;;generic-service;;ent21host1;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_storage_data;;generic-service;;ent21host1;;0;;check_snmp_storage!/data!80!90!-r
+service;;check_snmp_diskio_root;;generic-service;;ent21host1;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;ent21host1;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_throughput_ct;;generic-service;;ent21host1;;1;;0;;check_snmp_throughput!114.80.85.35!
+service;;check_snmp_conn;;generic-service;;ent21host1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent21host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;ent21host1;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;ent21host1;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_throughput_cu;;generic-service;;ent21host1;;1;;0;;check_snmp_throughput!112.65.45.169!
+service;;check_snmp_port;;generic-service;;ent21host1;;3;;0;;check_snmp_port
+service;;check_snmp_diskio_ape;;generic-service;;ent27host2;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_storage_ape;;generic-service;;ent27host2;;0;;check_snmp_storage!/ape!80!90!-r
+service;;check_snmp_conns;;generic-service;;ent27host2;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;ent27host2;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;ent27host2;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;ent27host2;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;ent27host2;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;ent27host2;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;ent27host2;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;ent27host2;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;ent27host2;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;ent27host2;;3;;0;;check_snmp_port
+service;;check_snmp_conn;;generic-service;;testvm-1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;testvm-1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;testvm-1;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;testvm-1;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_cpu_detail;;generic-service;;testvm-1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_port;;generic-service;;testvm-1;;3;;0;;check_snmp_port
+service;;check_snmp_port_vmnic0;;generic-service;;esxi05;;3;;0;;check_snmp_port!-n 1
+service;;check_snmp_storage_sanstore1;;generic-service;;esxi05;;0;;check_snmp_storage!/vmfs/volumes/4e98dc1b-748d04f2-887a-782bcb5b24ef!80!90!-r
+service;;check_snmp_port_vmnic1;;generic-service;;esxi05;;3;;0;;check_snmp_port!-n 2
+service;;icmp_ping_alive;;generic-service;;esxi05;;1;;1;;0;;check_alive
+service;;check_esxi_cpu;;generic-service;;esxi05;;3;;0;;check_vmware!prod!--report=cpu
+service;;check_esxi_mem;;generic-service;;esxi05;;3;;0;;check_vmware!prod!--report=mem
+service;;check_snmp_port_vmnic0;;generic-service;;esxi03;;3;;0;;check_snmp_port!-n 1
+service;;check_snmp_storage_sanstore1;;generic-service;;esxi03;;0;;check_snmp_storage!/vmfs/volumes/4e98dc1b-748d04f2-887a-782bcb5b24ef!80!90!-r
+service;;check_snmp_port_vmnic1;;generic-service;;esxi03;;3;;0;;check_snmp_port!-n 2
+service;;icmp_ping_alive;;generic-service;;esxi03;;1;;1;;0;;check_alive
+service;;check_esxi_cpu;;generic-service;;esxi03;;3;;0;;check_vmware!prod!--report=cpu
+service;;check_esxi_mem;;generic-service;;esxi03;;3;;0;;check_vmware!prod!--report=mem
+service;;check_snmp_port_vmnic0;;generic-service;;esxi06;;3;;0;;check_snmp_port!-n 1
+service;;check_snmp_storage_sanstore1;;generic-service;;esxi06;;0;;check_snmp_storage!/vmfs/volumes/4e98dc1b-748d04f2-887a-782bcb5b24ef!80!90!-r
+service;;check_snmp_port_vmnic1;;generic-service;;esxi06;;3;;0;;check_snmp_port!-n 2
+service;;icmp_ping_alive;;generic-service;;esxi06;;1;;1;;0;;check_alive
+service;;check_esxi_cpu;;generic-service;;esxi06;;3;;0;;check_vmware!prod!--report=cpu
+service;;check_esxi_mem;;generic-service;;esxi06;;3;;0;;check_vmware!prod!--report=mem
+service;;check_snmp_dsk_data;;generic-service;;ent9host1;;0;;check_snmp_dsk!'/data'!80:90
+service;;check_snmp_cpu_detail;;generic-service;;ent9host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_throughput_ct;;generic-service;;ent9host1;;1;;0;;check_snmp_throughput!180.153.97.93!
+service;;check_snmp_mem_detail;;generic-service;;ent9host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent9host1;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent9host1;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent9host1;;1;;1;;0;;check_alive
+service;;check_snmp_dsk_root;;generic-service;;ent9host1;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_throughput_cu;;generic-service;;ent9host1;;1;;0;;check_snmp_throughput!112.65.45.141!
+service;;check_snmp_port;;generic-service;;ent9host1;;3;;0;;check_snmp_port
+service;;icmp_ping_alive;;generic-service;;esxi31;;1;;1;;0;;check_alive
+service;;check_esxi_cpu;;generic-service;;esxi31;;3;;0;;check_vmware!vfdd!--report=cpu
+service;;check_esxi_mem;;generic-service;;esxi31;;3;;0;;check_vmware!vfdd!--report=mem
+service;;check_snmp_storage_var_vcap_data;;generic-service;;bosh-postgres;;0;;check_snmp_storage!/var/vcap/data!80!90!-r
+service;;check_snmp_conns;;generic-service;;bosh-postgres;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;bosh-postgres;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;bosh-postgres;;1;;1;;1;;0;;check_snmp_diskio!sda1
+service;;check_snmp_diskio_swap;;generic-service;;bosh-postgres;;1;;1;;1;;0;;check_snmp_diskio!sdb1
+service;;check_snmp_diskio_sdb2;;generic-service;;bosh-postgres;;1;;1;;1;;0;;check_snmp_diskio!sdb2
+service;;check_snmp_mem_detail;;generic-service;;bosh-postgres;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;bosh-postgres;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;bosh-postgres;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;bosh-postgres;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;bosh-postgres;;1;;1;;0;;check_alive
+service;;check_snmp_port;;generic-service;;bosh-postgres;;3;;0;;check_snmp_port
+service;;check_snmp_diskio_ape;;generic-service;;ent27host6;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_storage_ape;;generic-service;;ent27host6;;0;;check_snmp_storage!/ape!80!90!-r
+service;;check_snmp_conns;;generic-service;;ent27host6;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;ent27host6;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;ent27host6;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;ent27host6;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;ent27host6;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;ent27host6;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;ent27host6;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;ent27host6;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;ent27host6;;1;;1;;0;;check_alive
+service;;check_snmp_port;;generic-service;;ent27host6;;3;;0;;check_snmp_port
+service;;check_snmp_storage_e;;generic-service;;ent12host2;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_dsk_e;;generic-service;;ent12host2;;0;;check_snmp_dsk!'E:'!80:90
+service;;check_snmp_dsk_c;;generic-service;;ent12host2;;0;;check_snmp_dsk!'C:'!80:90
+service;;check_snmp_cpu_w;;generic-service;;ent12host2;;0;;check_snmp_cpu_w!90:95
+service;;check_snmp_throughput_ct;;generic-service;;ent12host2;;1;;0;;check_snmp_throughput!180.153.97.89!
+service;;check_snmp_conn;;generic-service;;ent12host2;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent12host2;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_c;;generic-service;;ent12host2;;0;;check_snmp_storage!'^C'!80!90
+service;;icmp_ping_alive;;generic-service;;ent12host2;;1;;1;;0;;check_alive
+service;;check_snmp_mem_w;;generic-service;;ent12host2;;0;;check_snmp_mem_w!-m 95:100
+service;;check_snmp_throughput_cu;;generic-service;;ent12host2;;1;;0;;check_snmp_throughput!112.65.45.137!
+service;;check_snmp_port;;generic-service;;ent12host2;;3;;0;;check_snmp_port
+service;;check_snmp_tcpconnstate;;generic-service;;ad;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_conn;;generic-service;;ad;;0;;check_snmp_conn
+service;;check_snmp_processor;;generic-service;;ad;;1;;0;;check_snmp_processor
+service;;check_snmp_storage_mem;;generic-service;;ad;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;ad;;1;;1;;0;;check_alive
+service;;check_snmp_storage_c;;generic-service;;ad;;0;;check_snmp_storage!'^C'!80!90
+service;;check_snmp_port;;generic-service;;ad;;3;;0;;check_snmp_port
+service;;check_snmp_diskio_stu;;generic-service;;bak;;1;;1;;1;;0;;check_snmp_diskio!dm-3
+service;;check_snmp_iostat_swap;;generic-service;;bak;;1;;1;;1;;0;;check_snmp_iostat!extOutput.2
+service;;check_snmp_iostat_root;;generic-service;;bak;;1;;1;;1;;0;;check_snmp_iostat!extOutput.1
+service;;check_snmp_diskio_root;;generic-service;;bak;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;bak;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_openmanage;;generic-service;;bak;;0;;check_openmanage
+service;;check_snmp_laload;;generic-service;;bak;;1;;0;;check_snmp_laload
+service;;check_snmp_mem_detail;;generic-service;;bak;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;icmp_ping_alive;;generic-service;;bak;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;bak;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_iostat_stu;;generic-service;;bak;;1;;1;;1;;0;;check_snmp_iostat!extOutput.4
+service;;check_snmp_dsk_root;;generic-service;;bak;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;bak;;3;;0;;check_snmp_port
+service;;check_snmp_io;;generic-service;;bak;;1;;0;;check_snmp_io
+service;;check_snmp_processor;;generic-service;;bak;;1;;0;;check_snmp_processor
+service;;check_snmp_cpu_detail;;generic-service;;bak;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_processor_detail;;generic-service;;bak;;1;;0;;check_snmp_processor_detail
+service;;check_snmp_conn;;generic-service;;bak;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;bak;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_stu;;generic-service;;bak;;0;;check_snmp_storage!/stu!80!90!-r
+service;;check_snmp_dsk_data;;generic-service;;ent10host1;;0;;check_snmp_dsk!'/data'!80:90
+service;;check_snmp_diskio_root;;generic-service;;ent10host1;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_diskio_swap;;generic-service;;ent10host1;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_laload;;generic-service;;ent10host1;;1;;0;;check_snmp_laload
+service;;check_snmp_mem_detail;;generic-service;;ent10host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;icmp_ping_alive;;generic-service;;ent10host1;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;ent10host1;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_throughput_cu;;generic-service;;ent10host1;;1;;0;;check_snmp_throughput!112.65.45.136!
+service;;check_snmp_dsk_root;;generic-service;;ent10host1;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent10host1;;3;;0;;check_snmp_port
+service;;check_snmp_diskio_data;;generic-service;;ent10host1;;1;;1;;1;;0;;check_snmp_diskio!dm-2
+service;;check_snmp_storage_data;;generic-service;;ent10host1;;0;;check_snmp_storage!/data!80!90!-r
+service;;check_snmp_cpu_detail;;generic-service;;ent10host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_throughput_ct;;generic-service;;ent10host1;;1;;0;;check_snmp_throughput!180.153.97.88!
+service;;check_snmp_conn;;generic-service;;ent10host1;;0;;check_snmp_conn
+service;;check_snmp_storage_mem;;generic-service;;ent10host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_conns;;generic-service;;cf2;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_diskio_root;;generic-service;;cf2;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_cpu_detail;;generic-service;;cf2;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_swap;;generic-service;;cf2;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;cf2;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;cf2;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;cf2;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;cf2;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;cf2;;1;;1;;0;;check_alive
+service;;check_snmp_port;;generic-service;;cf2;;3;;0;;check_snmp_port
+service;;check_snmp_storage_e;;generic-service;;ent22host1;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_processor;;generic-service;;ent22host1;;1;;0;;check_snmp_processor
+service;;check_snmp_conns;;generic-service;;ent22host1;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_tcpconnstate;;generic-service;;ent22host1;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;ent22host1;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_c;;generic-service;;ent22host1;;0;;check_snmp_storage!'^C'!80!90
+service;;icmp_ping_alive;;generic-service;;ent22host1;;1;;1;;0;;check_alive
+service;;check_snmp_port;;generic-service;;ent22host1;;3;;0;;check_snmp_port
+service;;check_snmp_storage_e;;generic-service;;vcs;;0;;check_snmp_storage!'^E'!80!90
+service;;check_snmp_processor;;generic-service;;vcs;;1;;0;;check_snmp_processor
+service;;check_snmp_conn;;generic-service;;vcs;;0;;check_snmp_conn
+service;;check_snmp_tcpconnstate;;generic-service;;vcs;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;vcs;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;vcs;;1;;1;;0;;check_alive
+service;;check_snmp_storage_c;;generic-service;;vcs;;0;;check_snmp_storage!'^C'!80!90
+service;;check_snmp_port;;generic-service;;vcs;;3;;0;;check_snmp_port
+service;;check_snmp_conns;;generic-service;;cf3;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_diskio_root;;generic-service;;cf3;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_cpu_detail;;generic-service;;cf3;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_swap;;generic-service;;cf3;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;cf3;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;cf3;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;cf3;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;cf3;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;cf3;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;cf3;;3;;0;;check_snmp_port
+service;;check_snmp_storage_var_vcap_data;;generic-service;;bosh-blob;;0;;check_snmp_storage!/var/vcap/data!80!90!-r
+service;;check_snmp_conns;;generic-service;;bosh-blob;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_cpu_detail;;generic-service;;bosh-blob;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_root;;generic-service;;bosh-blob;;1;;1;;1;;0;;check_snmp_diskio!sda1
+service;;check_snmp_diskio_swap;;generic-service;;bosh-blob;;1;;1;;1;;0;;check_snmp_diskio!sdb1
+service;;check_snmp_diskio_sdb2;;generic-service;;bosh-blob;;1;;1;;1;;0;;check_snmp_diskio!sdb2
+service;;check_snmp_mem_detail;;generic-service;;bosh-blob;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;bosh-blob;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;bosh-blob;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;bosh-blob;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;bosh-blob;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;bosh-blob;;3;;0;;check_snmp_port
+service;;check_snmp_storage_var_vcap_data;;generic-service;;bosh-nats;;0;;check_snmp_storage!/var/vcap/data!80!90!-r
+service;;check_snmp_conns;;generic-service;;bosh-nats;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_diskio_root;;generic-service;;bosh-nats;;1;;1;;1;;0;;check_snmp_diskio!sda1
+service;;check_snmp_cpu_detail;;generic-service;;bosh-nats;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_swap;;generic-service;;bosh-nats;;1;;1;;1;;0;;check_snmp_diskio!sdb1
+service;;check_snmp_diskio_sdb2;;generic-service;;bosh-nats;;1;;1;;1;;0;;check_snmp_diskio!sdb2
+service;;check_snmp_mem_detail;;generic-service;;bosh-nats;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;bosh-nats;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;bosh-nats;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;check_snmp_storage_root;;generic-service;;bosh-nats;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;icmp_ping_alive;;generic-service;;bosh-nats;;1;;1;;0;;check_alive
+service;;check_snmp_port;;generic-service;;bosh-nats;;3;;0;;check_snmp_port
+service;;check_snmp_port_0_2;;generic-service;;san-sw2;;3;;0;;check_snmp_port!-n 1073741826 -C public
+service;;check_snmp_port_0_5;;generic-service;;san-sw2;;3;;0;;check_snmp_port!-n 1073741829 -C public
+service;;check_snmp_port_0_6;;generic-service;;san-sw2;;3;;0;;check_snmp_port!-n 1073741830 -C public
+service;;check_snmp_port_0_9;;generic-service;;san-sw2;;3;;0;;check_snmp_port!-n 1073741833 -C public
+service;;check_snmp_port_0_4;;generic-service;;san-sw2;;3;;0;;check_snmp_port!-n 1073741828 -C public
+service;;check_snmp_port_0_7;;generic-service;;san-sw2;;3;;0;;check_snmp_port!-n 1073741831 -C public
+service;;check_snmp_port_0_0;;generic-service;;san-sw2;;3;;0;;check_snmp_port!-n 1073741824 -C public
+service;;check_snmp_port_0_10;;generic-service;;san-sw2;;3;;0;;check_snmp_port!-n 1073741834 -C public
+service;;check_snmp_port_0_3;;generic-service;;san-sw2;;3;;0;;check_snmp_port!-n 1073741827 -C public
+service;;check_snmp_port_0_8;;generic-service;;san-sw2;;3;;0;;check_snmp_port!-n 1073741832 -C public
+service;;check_snmp_port_0_1;;generic-service;;san-sw2;;3;;0;;check_snmp_port!-n 1073741825 -C public
+service;;check_snmp_dsk_data;;generic-service;;ent3host1;;0;;check_snmp_dsk!'/data'!80:90
+service;;check_snmp_cpu_detail;;generic-service;;ent3host1;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_throughput_ct;;generic-service;;ent3host1;;1;;0;;check_snmp_throughput!180.153.97.74!
+service;;check_snmp_mem_detail;;generic-service;;ent3host1;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_laload;;generic-service;;ent3host1;;1;;0;;check_snmp_laload
+service;;check_snmp_conn;;generic-service;;ent3host1;;0;;check_snmp_conn
+service;;icmp_ping_alive;;generic-service;;ent3host1;;1;;1;;0;;check_alive
+service;;check_snmp_throughput_cu;;generic-service;;ent3host1;;1;;0;;check_snmp_throughput!112.65.45.134!
+service;;check_snmp_dsk_root;;generic-service;;ent3host1;;0;;check_snmp_dsk!'/'!80:90
+service;;check_snmp_port;;generic-service;;ent3host1;;3;;0;;check_snmp_port
+service;;check_snmp_conns;;generic-service;;cf-bosh-cli;;1;;1;;0;;check_snmp_conns!
+service;;check_snmp_diskio_root;;generic-service;;cf-bosh-cli;;1;;1;;1;;0;;check_snmp_diskio!dm-0
+service;;check_snmp_cpu_detail;;generic-service;;cf-bosh-cli;;1;;1;;1;;0;;check_snmp_cpu_detail
+service;;check_snmp_diskio_swap;;generic-service;;cf-bosh-cli;;1;;1;;1;;0;;check_snmp_diskio!dm-1
+service;;check_snmp_mem_detail;;generic-service;;cf-bosh-cli;;1;;3;;1;;0;;check_snmp_mem_detail!95:100!50:80
+service;;check_snmp_tcpconnstate;;generic-service;;cf-bosh-cli;;1;;1;;1;;0;;check_snmp_tcpconnstate
+service;;check_snmp_storage_mem;;generic-service;;cf-bosh-cli;;0;;check_snmp_storage!'[Mm]emory'!95!98!-q Ram
+service;;icmp_ping_alive;;generic-service;;cf-bosh-cli;;1;;1;;0;;check_alive
+service;;check_snmp_storage_root;;generic-service;;cf-bosh-cli;;1;;3;;1;;0;;check_snmp_storage!/!80!90!-r
+service;;check_snmp_port;;generic-service;;cf-bosh-cli;;3;;0;;check_snmp_port

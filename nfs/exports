@@ -1,0 +1,2 @@
+/nfs 172.30.254.0/255.255.254.0(rw,no_root_squash,anonuid=0,anongid=0,async,no_subtree_check)
+#/mnt1 172.30.254.0/255.255.254.0(rw,no_root_squash,anonuid=0,anongid=0,async,no_subtree_check)

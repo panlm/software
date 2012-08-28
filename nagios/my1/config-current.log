@@ -1,0 +1,8 @@
+
+host;;my1;;my1;;172.30.255.4;;generic-host;;0
+host;;my2;;my2;;172.30.255.3;;generic-host;;0
+hostgroup;;testing;;testing;;my1,my2
+service;;icmp_ping_alive;;generic-service;;my2;;1;;1;;0;;check_alive
+service;;check_snmp_cpu_detail;;generic-service;;my2;;0;;check_snmp_cpu_detail
+service;;icmp_ping_alive;;generic-service;;my1;;1;;1;;0;;check_alive
+service;;check_snmp_cpu_detail;;generic-service;;my1;;0;;check_snmp_cpu_detail
