@@ -1,0 +1,3 @@
+# Logfile created on 2012-08-14 14:02:00 +0800 by logger.rb/25413
+I, [2012-08-14T14:02:00.628664 #2681]  INFO -- : Director Version : 0.5.2
+I, [2012-08-14T14:02:00.628801 #2681]  INFO -- : Enqueuing task: 3

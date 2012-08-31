@@ -1,0 +1,46 @@
+---
+name: Local Director
+port: 25555
+logging:
+  level: DEBUG
+redis:
+  host: 127.0.0.1
+  password:
+dir: /root/director/boshdir
+db:
+  database: "sqlite:///root/director/director.db"
+  max_connections: 32
+  pool_timeout: 10
+blobstore:
+  provider: local
+  options:
+    blobstore_path: /root/director/blobstore
+cloud:
+  plugin: vsphere
+  properties:
+    agent:
+      ntp:
+        - time.nist.gov
+      blobstore:
+        plugin: simple
+        properties:
+          endpoint: http://127.0.0.1:9999
+          user: admin
+          password: admin
+      server:
+        host: 127.0.0.1
+        password:
+    vcenters:
+      - host: 172.29.255.40
+        user: root
+        password: vmware
+        datacenters:
+          - name: datacenter
+            vm_folder: BOSH_VMs
+            template_folder: BOSH_Templates
+            disk_path: BOSH_Deployer
+            datastore_pattern: sanstore6
+            persistent_datastore_pattern: sanstore6
+            allow_mixed_datastores: true
+            clusters:
+              - cluster

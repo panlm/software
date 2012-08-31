@@ -1,0 +1,5 @@
+---
+path: /root/director/blobstore
+port: 9999
+users:
+  admin: admin
