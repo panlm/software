@@ -1,0 +1,32 @@
+---
+name: micro04
+
+network:
+  ip: 172.29.249.213
+  netmask: 255.255.255.0
+  gateway: 172.29.249.1
+  dns:
+  - 172.29.254.100
+  cloud_properties:
+    name: rd
+
+cloud:
+  plugin: vsphere
+  properties:
+    agent:
+      ntp:
+       - time.nist.gov
+    vcenters:
+      - host: 172.29.255.40
+        user: root
+        password: vmware
+        datacenters:
+          - name: datacenter
+            vm_folder: BOSH_VMs
+            template_folder: BOSH_Templates
+            disk_path: BOSH_Deployer
+            datastore_pattern: sanstore6
+            persistent_datastore_pattern: sanstore6
+            allow_mixed_datastores: true
+            clusters:
+              - cluster

@@ -1,0 +1,63 @@
+--- 
+instances: 
+- :id: 1
+  :name: micro01
+  :uuid: bm-69698a90-d44a-4c75-ac62-11c352259d5c
+  :stemcell_cid: sc-63698ecb-8c54-49f1-a5e4-493d695e1277
+  :stemcell_name: micro-bosh-stemcell-0.1.0
+  :vm_cid: vm-0882e4e5-5a66-430b-960e-9b4a4fcdd960
+  :disk_cid: "1"
+- :id: 2
+  :name: micro02
+  :uuid: bm-5c0da590-f4ef-4096-ab67-fcb4385be0bf
+  :stemcell_cid: sc-e44c509d-a59a-45d6-8aaa-8b0a29f68be7
+  :stemcell_name: micro-bosh-stemcell-0.1.0
+  :vm_cid: vm-89013aa9-1e6e-48f5-bd7e-bd9c6c14339c
+  :disk_cid: "2"
+- :id: 3
+  :name: micro03
+  :uuid: bm-964cd128-8f64-49d0-b03a-9df9a784a980
+  :stemcell_cid: sc-4cd30ed8-0dc4-468b-a100-ad9dfbfc0142
+  :stemcell_name: micro-bosh-stemcell-0.1.0
+  :vm_cid: vm-64a22145-c8b4-48ac-aaad-2de65483e7c8
+  :disk_cid: "3"
+- :id: 4
+  :name: micro04
+  :uuid: bm-d66c7c1d-3c14-4aa8-92fe-09f8fa4e1336
+  :stemcell_cid: sc-d458c770-8fa2-4144-9c97-983388cb27ba
+  :stemcell_name: micro-bosh-stemcell-0.1.0
+  :vm_cid: vm-4c078245-8d05-452f-be34-3e6425048025
+  :disk_cid: "4"
+- :id: 5
+  :name: micro05
+  :uuid: bm-76c8fd16-2316-40e1-8ec7-d38f7d31bdba
+  :stemcell_cid: sc-24ea1110-6d3d-4425-8181-2ad422cc2fa0
+  :stemcell_name: micro-bosh-stemcell-0.1.0
+  :vm_cid: vm-8ff87c18-0503-40cb-8af3-b85cac9b2561
+  :disk_cid: "5"
+disks: 
+- :id: 1
+  :path: "[sanstore6] BOSH_Deployer/1"
+  :datacenter: datacenter
+  :datastore: sanstore6
+  :size: 4096
+- :id: 2
+  :path: "[sanstore6] BOSH_Deployer/2"
+  :datacenter: datacenter
+  :datastore: sanstore6
+  :size: 4096
+- :id: 3
+  :path: "[sanstore6] BOSH_Deployer/3"
+  :datacenter: datacenter
+  :datastore: sanstore6
+  :size: 4096
+- :id: 4
+  :path: "[sanstore6] BOSH_Deployer/4"
+  :datacenter: datacenter
+  :datastore: sanstore6
+  :size: 4096
+- :id: 5
+  :path: "[sanstore6] BOSH_Deployer/5"
+  :datacenter: datacenter
+  :datastore: sanstore6
+  :size: 4096

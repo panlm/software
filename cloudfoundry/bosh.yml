@@ -1,0 +1,186 @@
+---
+name: bosh
+director_uuid: c41593fe-3c0f-492d-9653-b289c2f62e48
+release:
+  name: bosh
+  version: 5
+
+networks:
+- name: default
+  subnets:
+  - reserved:
+    - 172.29.249.2 - 172.29.249.64
+    - 172.29.249.96 - 172.29.249.254
+    static:
+    - 172.29.249.65 - 172.29.249.80
+    range: 172.29.249.0/24
+    gateway: 172.29.249.1
+    dns:
+    - 172.29.254.100
+    cloud_properties:
+      name: rd
+
+resource_pools:
+- name: small
+  stemcell:
+    name: bosh-stemcell
+    version: 0.5.2
+  network: default
+  size: 3
+  cloud_properties:
+    ram: 2048
+    disk: 16384
+    cpu: 1
+  env:
+    bosh:
+      password: $6$eNQE6oOmE8VsT.$Q8NcdGR6b5VuoZbZboEh9pV8BR3XYqCB6qlYfWyHLqtj/N0jD3RIRLLBFWBkAgSbMj1h31OhBpNEJDEPSihaS.
+      # vmware - password generated using mkpasswd -m sha-512
+- name: medium
+  stemcell:
+    name: bosh-stemcell
+    version: 0.5.2
+  network: default
+  size: 4
+  cloud_properties:
+    ram: 4096
+    disk: 32768
+    cpu: 2
+  env:
+    bosh:
+      password: $6$eNQE6oOmE8VsT.$Q8NcdGR6b5VuoZbZboEh9pV8BR3XYqCB6qlYfWyHLqtj/N0jD3RIRLLBFWBkAgSbMj1h31OhBpNEJDEPSihaS.
+      # vmware - password generated using mkpasswd -m sha-512
+- name: large
+  stemcell:
+    name: bosh-stemcell
+    version: 0.5.2
+  network: default
+  size: 1
+  cloud_properties:
+    ram: 8192
+    disk: 65536
+    cpu: 4
+  env:
+    bosh:
+      password: $6$eNQE6oOmE8VsT.$Q8NcdGR6b5VuoZbZboEh9pV8BR3XYqCB6qlYfWyHLqtj/N0jD3RIRLLBFWBkAgSbMj1h31OhBpNEJDEPSihaS.
+      # vmware - password generated using mkpasswd -m sha-512
+
+compilation:
+  workers: 6
+  network: default
+  cloud_properties:
+    ram: 2048
+    disk: 4048
+    cpu: 4
+
+update:
+  canaries: 1
+  canary_watch_time: 60000
+  update_watch_time: 60000
+  max_in_flight: 1
+  max_errors: 1
+
+jobs:
+
+- name: nats
+  template: nats
+  instances: 1
+  resource_pool: small
+  networks:
+  - name: default
+    static_ips:
+    - 172.29.249.65
+
+- name: postgres
+  template: postgres
+  instances: 1
+  resource_pool: medium
+  networks:
+  - name: default
+    static_ips:
+    - 172.29.249.66
+
+- name: redis
+  template: redis
+  instances: 1
+  resource_pool: small
+  networks:
+  - name: default
+    static_ips:
+    - 172.29.249.67
+
+- name: director
+  template: director
+  instances: 1
+  resource_pool: medium
+  networks:
+  - name: default
+    static_ips:
+    - 172.29.249.68
+
+- name: blobstore
+  template: blobstore
+  instances: 1
+  resource_pool: medium
+  networks:
+  - name: default
+    static_ips:
+    - 172.29.249.69
+
+properties:
+  env:
+    #http_proxy: "http://<proxy>"
+    #https_proxy: "http://<proxy>"
+    #no_proxy: ""
+
+  blobstore:
+    address: 172.29.249.69
+    port: 25251
+    backend_port: 25552
+    agent:
+      user: agent
+      password: agent
+    director:
+      user: director
+      password: director
+
+  networks:
+    apps: default
+    management: default
+
+  nats:
+    user: nats
+    password: nats
+    address: 172.29.249.65
+    port: 4222
+
+  postgres:
+    user: bosh
+    password: bosh
+    address: 172.29.249.66
+    port: 5432
+    database: bosh
+
+  redis:
+    address: 172.29.249.67
+    port: 25255
+    password: redis
+
+  director:
+    name: bosh_director
+    address: 172.29.249.68
+    port: 25555
+
+  vcenter:
+    address: 172.29.255.40
+    user: root
+    password: vmware
+    datacenters:
+      - name: datacenter
+        vm_folder: BOSH_VMs
+        template_folder: BOSH_Templates
+        disk_path: BOSH_Disks
+        datastore_pattern: sanstore6
+        persistent_datastore_pattern: sanstore6
+        allow_mixed_datastores: true
+        clusters:
+        - cluster
