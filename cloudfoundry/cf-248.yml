@@ -1,10 +1,10 @@
 ---
 name: cf2
-director_uuid: e8cef865-5653-45be-93a1-ca111ff3968b
+director_uuid: 9ec72556-bcd9-424d-b68a-68bd6574b500
 
 release:
-  name: cloudfoundry
-  version: 78.3-dev
+  name: cf
+  version: 84.2-dev
 
 compilation:
   workers: 8
