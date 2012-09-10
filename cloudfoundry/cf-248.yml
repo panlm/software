@@ -4,7 +4,7 @@ director_uuid: 9ec72556-bcd9-424d-b68a-68bd6574b500
 
 release:
   name: cf
-  version: 84.2-dev
+  version: 100.1-dev
 
 compilation:
   workers: 8
@@ -457,32 +457,56 @@ properties:
   mysql_gateway:
     check_orphan_interval: 7200
     token: "0xfeedface"
+    supported_versions: ["5.1"]
+    version_aliases:
+      current: "5.1"
   mysql_node:
     production: true
     password: aaa13djkas
+    supported_versions: ["5.1"]
+    default_version: "5.1"
 
   redis_gateway:
     token: "0xfeedface"
     check_orphan_interval: 7200
+    supported_versions: ["2.2"]
+    version_aliases:
+      current: "2.2"
   redis_node:
     command_rename_prefix: sample
+    supported_versions: ["2.2"]
+    default_version: "2.2"
 
   mongodb_gateway:
     check_orphan_interval: 7200
     token: "0xfeedface"
+    supported_versions: ["1.8", "2.0"]
+    version_aliases:
+      current: "2.0"
+      deprecated: "1.8"
   mongodb_node:
-    {}
+    supported_versions: ["1.8", "2.0"]
+    default_version: "1.8"
 
   rabbit_gateway:
     token: AAA430A8BAED490B1240338DA34B10D
+    supported_versions: ["2.4"]
+    version_aliases:
+      current: "2.4"
   rabbit_node:
-    {}
+    supported_versions: ["2.4"]
+    default_version: "2.4"
 
   postgresql_gateway:
     check_orphan_interval: 7200
     token: aaaeAh4BXFBXwLrrWJCpQTfeDnaCn7m
+    supported_versions: ["9.0"]
+    version_aliases:
+      current: "9.0"
   postgresql_node:
     production: true
+    supported_versions: ["9.0"]
+    default_version: "9.0"
 
   syslog_aggregator:
     address: 172.29.248.13
