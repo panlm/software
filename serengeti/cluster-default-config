@@ -1,0 +1,62 @@
+{
+  "nodeGroups" : [
+    {
+      "name" : "master",
+      "roles" : [
+        "hadoop_namenode",
+        "hadoop_jobtracker"
+      ],
+      "instanceNum" : 1,
+      "instanceType" : "MEDIUM",
+      "storage" : {
+        "type" : "shared",
+        "sizeGB" : 50
+      },
+      "cpuNum" : 2,
+      "memCapacityMB" : 7500,
+      "haFlag" : "on",
+      "configuration" : {
+      }
+    },
+    {
+      "name" : "worker",
+      "roles" : [
+        "hadoop_datanode",
+        "hadoop_tasktracker"
+      ],
+      "instanceNum" : 4,
+      "instanceType" : "SMALL",
+      "storage" : {
+        "type" : "shared",
+        "sizeGB" : 50
+      },
+      "cpuNum" : 1,
+      "memCapacityMB" : 3748,
+      "haFlag" : "off",
+      "configuration" : {
+      }
+    },
+    {
+      "name" : "client",
+      "roles" : [
+        "hive",
+        "hadoop_client",
+        "hive_server",
+        "pig"
+      ],
+      "instanceNum" : 1,
+      "instanceType" : "SMALL",
+      "storage" : {
+        "type" : "shared",
+        "sizeGB" : 50
+      },
+      "cpuNum" : 1,
+      "memCapacityMB" : 3748,
+      "haFlag" : "off",
+      "configuration" : {
+      }
+    }
+  ],
+  "configuration" : {
+  }
+}

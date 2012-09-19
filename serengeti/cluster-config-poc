@@ -1,0 +1,111 @@
+{
+  "nodeGroups" : [
+    {
+      "name" : "master",
+      "roles" : [
+        "hadoop_namenode",
+        "hadoop_jobtracker"
+      ],
+      "instanceNum" : 1,
+      "instanceType" : "MEDIUM",
+      "storage" : {
+        "type" : "shared",
+        "sizeGB" : 50
+      },
+      "cpuNum" : 1,
+      "memCapacityMB" : 8192,
+      "haFlag" : "on",
+      "configuration" : {
+      }
+    },
+    {
+      "name" : "data",
+      "roles" : [
+        "hadoop_datanode"
+      ],
+      "instanceNum" : 2,
+      "instanceType" : "MEDIUM",
+      "storage" : {
+        "type" : "LOCAL",
+        "sizeGB" : 50
+      },
+      "placementPolicies" : {
+        "instancePerHost" : 1
+      },
+      "cpuNum" : 2,
+      "memCapacityMB" : 4096,
+      "haFlag" : "off",
+      "configuration" : {
+      }
+    },
+    {
+      "name" : "computer",
+      "roles" : [
+        "hadoop_tasktracker"
+      ],
+      "instanceNum" : 2,
+      "instanceType" : "MEDIUM",
+      "storage" : {
+        "type" : "LOCAL",
+        "sizeGB" : 50
+      },
+      "placementPolicies" : {
+        "instancePerHost" : 2
+      },
+      "cpuNum" : 2,
+      "memCapacityMB" : 4096,
+      "haFlag" : "off",
+      "configuration" : {
+      }
+    },
+    {
+      "name" : "client",
+      "roles" : [
+        "hive",
+        "hadoop_client",
+        "hive_server",
+        "pig"
+      ],
+      "instanceNum" : 1,
+      "instanceType" : "SMALL",
+      "storage" : {
+        "type" : "shared",
+        "sizeGB" : 50
+      },
+      "cpuNum" : 1,
+      "memCapacityMB" : 3748,
+      "haFlag" : "off",
+      "configuration" : {
+      }
+    }
+  ],
+  "configuration" : {
+    "hadoop": { 
+      "core-site.xml": { 
+        // check for all settings at http://hadoop.apache.org/common/docs/r1.0.0/core-default.html 
+        // note: any value (int, float, boolean, string) must be enclosed in double quotes and here is a sample
+        // "io.file.buffer.size": "4096" 
+      }, 
+      "hdfs-site.xml": { 
+        // check for all settings at http://hadoop.apache.org/common/docs/r1.0.0/hdfs-default.html 
+      }, 
+      "mapred-site.xml": { 
+        // check for all settings at http://hadoop.apache.org/common/docs/r1.0.0/mapred-default.html 
+      }, 
+      "hadoop-env.sh": { 
+        // "HADOOP_HEAPSIZE": "", 
+        // "HADOOP_NAMENODE_OPTS": "", 
+        // "HADOOP_DATANODE_OPTS": "", 
+        // "HADOOP_SECONDARYNAMENODE_OPTS": "", 
+        // "HADOOP_JOBTRACKER_OPTS": "", 
+        // "HADOOP_TASKTRACKER_OPTS": "", 
+        // "JAVA_HOME": "", 
+        // "PATH": "", 
+      }, 
+      "log4j.properties": { 
+        // "hadoop.root.logger": "DEBUG,console", 
+        // "hadoop.security.logger": "DEBUG,console", 
+      }
+  }
+}
+}
