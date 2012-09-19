@@ -4,7 +4,7 @@ director_uuid: 9ec72556-bcd9-424d-b68a-68bd6574b500
 
 release:
   name: cf
-  version: 100.1-dev
+  version: 104.1-dev
 
 compilation:
   workers: 8
@@ -319,6 +319,26 @@ jobs:
     static_ips:
     - 172.29.248.81
 
+- name: hbase_slave
+  template: hbase_slave
+  instances: 2
+  resource_pool: infrastructure
+  persistent_disk: 2048
+  networks:
+  - name: default
+    static_ips:
+    - 172.29.248.91 - 172.29.248.92
+
+- name: hbase_master
+  template: hbase_master
+  instances: 1
+  resource_pool: infrastructure
+  persistent_disk: 2048
+  networks:
+  - name: default
+    static_ips:
+    - 172.29.248.90
+
 properties:
   domain: cloudfoundry.ingeek.cn
 
@@ -540,4 +560,23 @@ properties:
     batch:
       username: do0H2AKay2jAc
       password: FSCTiplI5Q83n
+
+  hbase_master:
+    address: 172.29.248.90
+    hbase_master:
+      port: 60000
+      webui_port: 60010
+      heap_size: 1024
+    hbase_zookeeper:
+      heap_size: 1024
+    hadoop_namenode:
+      port: 9000
+
+  hbase_slave:
+    hbase_regionserver:
+      port: 60020
+      heap_size: 1024
+    addresses:
+    - 172.29.249.91
+    - 172.29.249.92
 
