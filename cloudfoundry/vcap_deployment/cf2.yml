@@ -1,0 +1,15 @@
+---
+deployment:
+  name: "cf2"
+jobs:
+  install:
+    - mysql_node:
+        index: "2"
+    - mongodb_node:
+        index: "2"
+  installed:
+    - nats_server:
+        host: "cf1"
+        port: "4222"
+        user: "nats"
+        password: "nats"

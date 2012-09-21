@@ -1,0 +1,13 @@
+---
+deployment:
+  name: "cf3"
+
+jobs:
+  install:
+    - dea
+  installed:
+    - nats_server:
+        host: "cf1"
+        port: "4222"
+        user: "nats"
+        password: "nats"

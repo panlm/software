@@ -1,0 +1,6 @@
+---
+deployment:
+  name: "cf1"
+jobs:
+  install:
+    - all
